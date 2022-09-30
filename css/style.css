@@ -129,21 +129,28 @@ img {
  ************************************************/
 
 /* Versione Tablet*/
- @media screen and (min-width: 768px){
+ @media screen and (max-width: 768px){
     .container {
         max-width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .row {
-        max-width: 100%;
-    }
-}
+
+    /* section {
+       
+    } */
+
+    /* .col {
+        flex-shrink: 0;
+    } */
+ }
 
  /* Versione Mobile*/
- @media screen and (min-width: 480px){
-    .container {
+ /* @media screen and (min-width: 480px){
+    body {
+        display: flex;
         flex-direction: column;
+        flex: 0 0 auto;
     }
-}
+} */
