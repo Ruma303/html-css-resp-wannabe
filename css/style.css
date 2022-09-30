@@ -136,21 +136,13 @@ img {
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    /* section {
-       
-    } */
-
-    /* .col {
-        flex-shrink: 0;
-    } */
  }
 
  /* Versione Mobile*/
- /* @media screen and (min-width: 480px){
-    body {
+ @media screen and (max-width: 480px){
+    .container {        
         display: flex;
-        flex-direction: column;
-        flex: 0 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-} */
+ }
