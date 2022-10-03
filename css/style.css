@@ -149,6 +149,7 @@ img {
         gap: 3em;
     }
     .lessons .col, .steps .col, .why-us .col {
+/* ho messo una misura fissa per evitare che rimpicciolisca ancora i contenuti, scelta personale */
         width: 480px;
     }
 }
