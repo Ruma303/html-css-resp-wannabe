@@ -149,7 +149,7 @@ img {
         gap: 3em;
     }
     .lessons .col, .steps .col, .why-us .col {
-        width: 100%;
+        width: 480px;
     }
 }
 
