@@ -153,4 +153,9 @@ img {
     }
 }
 
-
+/* scroll bar orizzontale rimossa */
+@media screen and (max-width: 1160px){
+    .container {
+        max-width: 100%;    
+    }
+}
